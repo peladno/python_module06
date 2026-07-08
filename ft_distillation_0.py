@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 from alchemy import heal, strength_potion
+
 
 if __name__ == "__main__":
     print("=== Distillation 0 ===")
