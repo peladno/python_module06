@@ -8,5 +8,5 @@ if __name__ == "__main__":
     print("Testing create_air:", alchemy.create_air())
     try:
         print(alchemy.create_earth())
-    except Exception as e:
+    except ImportError as e:
         print(e)
