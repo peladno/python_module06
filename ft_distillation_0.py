@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from alchemy import heal, strength_potion
+from alchemy.potions import strength_potion, healing_potion
 
 
 if __name__ == "__main__":
     print("=== Distillation 0 ===")
     print("Direct access to alchemy/potions.py")
     print("Testing strength_potion", strength_potion())
-    print("Testing healing_potion", heal())
+    print("Testing healing_potion", healing_potion())
